@@ -16,6 +16,8 @@ module eq2_testbench;
    //  test vector generator
    initial
    begin
+      $dumpfile("list_ch02_03_eq2_tb.vcd");
+      $dumpvars(0, eq2_testbench);
       // test vector 1
       test_in0 = 2'b00;
       test_in1 = 2'b00;
