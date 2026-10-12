@@ -46,8 +46,8 @@ module eq2_testbench;
       test_in0 = 2'b11;
       test_in1 = 2'b01;
       # 200;
-      // stop simulation
-      $stop;
+      // finish simulation
+      $finish;
    end
 
 endmodule
